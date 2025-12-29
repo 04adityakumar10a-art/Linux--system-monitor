@@ -1,0 +1,35 @@
+========================
+System Report - Mon Dec 29 08:41:08 UTC 2025
+Logged in users:
+aditya   pts/1        2025-12-29 08:38
+
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+none            5.8G     0  5.8G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            5.8G  4.0K  5.8G   1% /mnt/wsl
+drivers         475G  100G  376G  21% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.7G  954G   1% /
+none            5.8G   72K  5.8G   1% /mnt/wslg
+none            5.8G     0  5.8G   0% /usr/lib/wsl/lib
+rootfs          5.8G  2.7M  5.8G   1% /init
+none            5.8G  508K  5.8G   1% /run
+none            5.8G     0  5.8G   0% /run/lock
+none            5.8G     0  5.8G   0% /run/shm
+none            5.8G   76K  5.8G   1% /mnt/wslg/versions.txt
+none            5.8G   76K  5.8G   1% /mnt/wslg/doc
+C:\             475G  100G  376G  21% /mnt/c
+tmpfs           1.2G   20K  1.2G   1% /run/user/1000
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:            11Gi       489Mi        10Gi       3.5Mi       431Mi        11Gi
+Swap:          3.0Gi          0B       3.0Gi
+
+Top CPU Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.5  0.0  21708 11896 ?        Ss   08:38   0:01 /sbin/init
+root          55  0.2  0.1  50448 15056 ?        S<s  08:38   0:00 /usr/lib/systemd/systemd-journald
+root         104  0.2  0.0  25392  6272 ?        Ss   08:38   0:00 /usr/lib/systemd/systemd-udevd
+root         216  0.1  0.1 107008 22272 ?        Ssl  08:38   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         185  0.1  0.1 1755840 12288 ?       Ssl  08:38   0:00 /usr/libexec/wsl-pro-service -vv
+========================
